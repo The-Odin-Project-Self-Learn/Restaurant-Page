@@ -1,6 +1,7 @@
 import "./styles.css";
 import { loadHomePage } from "./homePage";
 import { loadMenuPage } from "./menuPage";
+import { loadAboutPage } from "./aboutPage";
 
 loadHomePage();
 
@@ -16,6 +17,8 @@ document.querySelectorAll("button").forEach(element => {
             loadMenuPage();
         } else if (element.textContent === 'Home') {
             loadHomePage();
-        }
+        } else if (element.textContent === 'About') {
+            loadAboutPage();
+        } 
     });
 });
