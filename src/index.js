@@ -1,3 +1,4 @@
 import "./styles.css";
+import { loadPage } from "./pageLoad";
 
-console.log("greetings");
+loadPage();
