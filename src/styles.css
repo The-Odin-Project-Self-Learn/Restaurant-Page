@@ -10,4 +10,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 50px;
+}
+.menu-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
